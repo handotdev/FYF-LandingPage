@@ -1,9 +1,9 @@
 <?php
-$ccr_subject = ' Ajax HTML Contact Form : Demo'; // Subject of your email
-$to = $_REQUEST['email'];  //Recipient's E-mail
+$ccr_subject = 'Submission from website'; // Subject of your email
+$to = $_REQUEST['findyourfortesurrey@gmail.com'];  //Recipient's E-mail
 
 $headers  = 'MIME-Version: 1.0' . "\r\n";
-$headers .= "From: " . $_REQUEST['email'] . "\r\n"; // Sender's E-mail
+$headers .= "From: " . $_REQUEST['website@no-reply.com'] . "\r\n"; // Sender's E-mail
 $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
 
 $ccr_message .= 'Name: ' . $_REQUEST['name'] . "<br>";
